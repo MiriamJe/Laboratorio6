@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de Arte</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="pagina1.html">Fútbol</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="pagina2.html">Arte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Videojuegos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center text-info">Arte</h1>
+        <p>El arte es la manifestación de la creatividad humana. Desde la pintura hasta la escultura, el arte ha sido un reflejo de la sociedad y la cultura en todas las épocas.</p>
+        <p>Algunos artistas han cambiado la forma en que vemos el mundo, como Leonardo Da Vinci con su famosa "Mona Lisa" o Vincent van Gogh con su "Noche Estrellada".</p>
+        <p>El arte no tiene fronteras y puede tomarse en diferentes formas, estilos y técnicas. Algunos prefieren el arte clásico, mientras que otros aprecian el arte moderno o abstracto.</p>
+        <p>Las galerías de arte siguen siendo espacios donde el público puede experimentar y conectar con las obras de artistas consagrados y emergentes.</p>
+        
+        <!-- Carrusel con intervalos de 3 segundos y tamaño de imagen reducido -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="a1.jpg" class="d-block w-25 mx-auto" alt="1">
+                </div>
+                <div class="carousel-item">
+                    <img src="a2.jpg" class="d-block w-25 mx-auto" alt="2">
+                </div>
+                <div class="carousel-item">
+                    <img src="a3.jpg" class="d-block w-25 mx-auto" alt="3">
+                </div>
+                   <div class="carousel-item">
+                    <img src="a4.jpg" class="d-block w-25 mx-auto" alt="4">
+                </div>
+                   <div class="carousel-item">
+                    <img src="a5.jpg" class="d-block w-25 mx-auto" alt="5">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="alert alert-warning mt-4" role="alert">
+            Descubre más información.
+        </div>
+
+        <button class="btn btn-outline-info">Ver más artistas</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

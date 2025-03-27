@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de Fútbol</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .active { font-weight: bold; color: red; }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="pagina1.html">Fútbol</a></li> <!-- Clase active en esta página -->
+                    <li class="nav-item"><a class="nav-link" href="pagina2.html">Arte</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pagina3.html">Videojuegos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center text-success">Fútbol</h1>
+        <p>El fútbol es el deporte más popular del mundo, practicado por millones de personas en todo el planeta. Cada semana, millones de personas se reúnen para ver los partidos más importantes de la temporada.</p>
+        <p>Este es un deporte que se suele practicar desde cortas edades.</p>
+        <p>Desde la Copa del Mundo hasta los partidos locales, el fútbol une a culturas, países y generaciones, haciendo de cada partido una celebración.</p>
+        <p>Los mejores jugadores como Lionel Messi, Cristiano Ronaldo y Neymar se han convertido en íconos globales, no solo dentro del campo, sino también fuera de él.</p>
+        <p>Además de la popularidad del fútbol, existen muchas ligas profesionales que permiten que equipos de todo el mundo se enfrenten, como la UEFA Champions League, la Premier League y La Liga.</p>
+
+        <div class="row mt-4">
+            <div class="col-md-3">
+                <img src="f1.jpg" class="img-fluid rounded" alt="1">
+            </div>
+            <div class="col-md-3">
+                <img src="f2.jpg" class="img-fluid rounded" alt="B2">
+            </div>
+            <div class="col-md-3">
+                <img src="f3.jpg" class="img-fluid rounded" alt="3">
+            </div>
+            <div class="col-md-3">
+                <img src="f4.jpg" class="img-fluid rounded" alt="4">
+            </div>
+        </div>
+
+        <div class="alert alert-info mt-4" role="alert">
+            ¿Te interesa saber más?
+        </div>
+
+        <button class="btn btn-success">Descubre más sobre el fútbol</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
